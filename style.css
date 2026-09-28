@@ -1357,17 +1357,12 @@ footer {
 
 @media (max-width: 768px) {
 
-    /* MOBILE HERO FIX */
-@media (max-width: 768px) {
-
     .hero {
         background-size: auto 70% !important;
         background-position: 90% bottom !important;
         background-repeat: no-repeat !important;
         background-color: #000 !important;
     }
-
-}
 
     .hero-content {
         width: 100%;
@@ -1376,54 +1371,26 @@ footer {
         z-index: 2;
     }
 
-    .hero-content h1 {
-        font-size: clamp(3.5rem, 15vw, 5rem);
+    .hero h1 {
+        font-size: 50px;
         line-height: 0.95;
+        letter-spacing: -3px;
     }
 
-    .hero-content h2 {
-        font-size: 1.7rem;
-        margin-top: 18px;
+    .hero-subtitle {
+        font-size: 17px;
     }
 
-    .hero-content .hero-description {
-        font-size: 1.05rem;
-        line-height: 1.6;
-        max-width: 100%;
-        margin-top: 35px;
-    }
-
-    .hero-content p {
-        font-size: 0.95rem;
-        line-height: 1.7;
-    }
-
-    .hero-buttons {
-        display: flex;
+    .hero-actions {
         flex-direction: column;
-        gap: 15px;
-        margin-top: 30px;
+        align-items: stretch;
     }
 
-    .hero-buttons a {
+    .hero-actions .btn {
         width: 100%;
-        text-align: center;
     }
-
-    .hero-links {
-        margin-top: 30px;
-        gap: 25px;
-    }
-
-    .hero {
-    background-size: auto 55%;
-    background-position: 85% bottom;
-}
-}
-
 
     .social-row {
-
         gap: 15px;
     }
 }
