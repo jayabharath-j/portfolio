@@ -1394,29 +1394,19 @@ footer {
         gap: 15px;
     }
  /* ========================================
-   SECTION ALIGNMENT FIX
+   SECTION ALIGNMENT
 ======================================== */
 
 .section {
     max-width: none;
+    margin: 0 auto;
     padding-left: 5%;
     padding-right: 5%;
 }
-/* ========================================
-   FINAL SECTION ALIGNMENT FIX
-======================================== */
-
-.section {
-    max-width: var(--max-width) !important;
-    margin: 0 auto !important;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-}
 
 .section.soft {
-    max-width: var(--max-width) !important;
-    margin: 0 auto !important;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-}
+    max-width: none;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
